@@ -13,3 +13,8 @@ variable "ami" {
   type        = string
   description = "AMI ID"
 }
+
+variable "domain_name" {
+  type        = string
+  description = "domain name"
+}
