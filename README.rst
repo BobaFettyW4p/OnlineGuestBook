@@ -11,4 +11,4 @@ Pre-requisites
 
 Installation
 ------------
-#. update the domain_name variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`
+#. update the domain_name variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_
