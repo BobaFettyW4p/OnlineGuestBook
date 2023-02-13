@@ -18,6 +18,7 @@ Installation
 .. code-block:: bash
 
    terraform init
+   
    terraform apply
 
 
