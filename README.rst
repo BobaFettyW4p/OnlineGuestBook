@@ -12,11 +12,13 @@ Pre-requisites
 
 Installation
 ------------
-1. update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_ to reflect your custom domain/desired top-level domain with your values
+#. Update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_
 
+#. Run the below commands
 .. code-block:: bash
 
    terraform init
    terraform apply
-   
-post install, you will need to 
+
+
+post install, you may need to delegate DNS authority to the hosted zone created for the domain set in terraform.tfvars. For more information, please refer to my `blog post <https://blog.mivancic.com/route53-hosted-zone-delegation>`_ on this
