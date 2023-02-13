@@ -28,10 +28,12 @@ Installation
 #. Ensure your AWS credentials are properly passed to your terminal session
 #. Run the following commands:
 
+
 .. code-block::bash
    terraform init
    
    terraform apply
+
 
 NOTE: As part of the installation, your EC2 instance will utilize the files from the `sister repository <https://github.com/BobaFettyW4p/OnlineGuestBook>`_ to configure the web server/app
 
