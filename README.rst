@@ -7,9 +7,9 @@ This repo contains all of the terraform configuration files needed to create a w
 a simple 'Online Guestbook' webapp:
 
 #. An `EC2 Instance <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/ec2.tf>`_ that will act as our webserver
-#. A `Virtual Private Cloud (VPC) <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/vpc.tf>` for our webserver to reside in
+#. A `Virtual Private Cloud <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/vpc.tf>` for our webserver to reside in
 #. A `subnet <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/subnet.tf>`_ to handle addressing within the VPC
-#. A `routing table<https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/routeTable.tf>`_ to handle routing between the VPC and the wider internet
+#. A `routing table <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/routeTable.tf>`_ to handle routing between the VPC and the wider internet
 #. A `security group <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/securityGroup.tf>`_ to authorize traffic routing to and from the VPC
 #. All of which interface with `Route53 records <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/route53.tf>`_ to utilize the desired domain for name resolution/routing  
 
