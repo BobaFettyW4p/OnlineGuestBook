@@ -26,11 +26,6 @@ Installation
 ------------
 #. Update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_ with your desired values
 #. Ensure your AWS credentials are properly passed to your terminal session
-#. .. code-block::bash
-      terraform init
-      
-      terraform apply
-
 
 .. code-block::bash
    terraform init
@@ -38,6 +33,6 @@ Installation
    terraform apply
 
 
-NOTE: As part of the installation, your EC2 instance will utilize the files from the `sister repository <https://github.com/BobaFettyW4p/OnlineGuestBook>`_ to configure the web server/app
+NOTE: As part of the installation, your EC2 instance will utilize the files from the `sister repository <https://github.com/BobaFettyW4p/OnlineGuestBook>`_ to configure the web server/app.
 
 post install, you may need to delegate DNS authority to the newly-created hosted zone. For more information, please refer to my `blog post <https://blog.mivancic.com/route53-hosted-zone-delegation>`_ on this
