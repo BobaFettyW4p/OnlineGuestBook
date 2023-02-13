@@ -26,7 +26,10 @@ Installation
 ------------
 #. Update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_ with your desired values
 #. Ensure your AWS credentials are properly passed to your terminal session
-#. Run the following commands:
+#. .. code-block::bash
+      terraform init
+      
+      terraform apply
 
 
 .. code-block::bash
