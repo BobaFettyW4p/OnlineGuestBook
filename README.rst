@@ -11,7 +11,7 @@ a simple 'Online Guestbook' webapp:
 #. A `subnet <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/subnet.tf>`_ to handle addressing within the VPC
 #. A `routing table <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/routeTable.tf>`_ to handle routing between the VPC and the wider internet
 #. A `security group <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/securityGroup.tf>`_ to authorize traffic routing to and from the VPC
-#. All of which interface with `Route53 records <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/route53.tf>`_ to utilize the desired domain for name resolution/routing  
+#. All of which interface with `Route53 <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/route53.tf>`_ to utilize the desired domain for name resolution/routing  
 
 All non-Route53 resources created as a result of this project are Free Tier-eligible (Route53 should cost ~$1.00 a month to operate, barring large amounts of traffic)
 
