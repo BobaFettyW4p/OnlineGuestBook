@@ -30,6 +30,7 @@ Installation
 #. Ensure your AWS credentials are properly passed to your terminal session
 #. Apply the terraform configuration as follows:
 
+
 .. code-block:: bash
       terraform init
    
