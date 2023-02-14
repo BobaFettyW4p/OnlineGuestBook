@@ -5,7 +5,7 @@ Online Guest Book
 
 To see an example of this project in action, click `here <http://guestbook.mivancic.com>`_
 
-This repo contains all of the terraform configuration files needed to create a web server on AWS to host
+This repo contains all of the terraform configuration files needed to create a web server infrastructure on AWS to host
 a simple 'Online Guestbook' webapp:
 
 #. An `EC2 Instance <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/ec2.tf>`_ that will act as our webserver
