@@ -33,6 +33,6 @@ Installation
    terraform apply
 
 
-NOTE: As part of the installation, your EC2 instance will utilize the files from the `sister repository <https://github.com/BobaFettyW4p/OnlineGuestBook>`_ to configure the web server/app.
+NOTE: As part of the installation, your EC2 instance will utilize the files from the `sister repository <https://github.com/BobaFettyW4p/OnlineGuestBookConfig>`_ to configure the web server/app.
 
 post install, you may need to delegate DNS authority to the newly-created hosted zone. For more information, please refer to my `blog post <https://blog.mivancic.com/route53-hosted-zone-delegation>`_ on this
