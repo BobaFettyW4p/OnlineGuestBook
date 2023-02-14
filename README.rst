@@ -20,7 +20,7 @@ Pre-requisites
 #. AWS account with Power User privileges
 #. A pre-existing key pair. For info on creating one, please refer to `this documentation from AWS <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html>`_
 #. terraform locally installed
-#. custom domain (hosted via Route53 or any other DNS service)
+#. domain hosted via Route53 or any other DNS service
 
 Installation
 ------------
