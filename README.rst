@@ -3,7 +3,7 @@ Online Guest Book
 
 .. image:: https://user-images.githubusercontent.com/111187499/218286042-91e5698e-e269-4dbb-b5b1-4999cc452d6e.png
 
-To see an example of this project in action, click `here <guestbook.mivancic.com>`_
+To see an example of this project in action, click `here <http://guestbook.mivancic.com>`_
 
 This repo contains all of the terraform configuration files needed to create a web server on AWS to host
 a simple 'Online Guestbook' webapp:
