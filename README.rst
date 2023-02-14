@@ -24,9 +24,9 @@ Pre-requisites
 #. terraform locally installed
 #. domain hosted via Route53 or any other DNS service
 
-Installation
-------------
-#. Update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_ with your desired values
+Usage
+-----
+#. Update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_ with your desired values (if Route53 DNS services are not desired, simply delete `route53.tf <https://github.com/BobaFettyW4p/OnlineGuestbook/blob/main/route53.tf>`_)
 #. Ensure your AWS credentials are properly passed to your terminal session
 #. Apply the terraform configuration as follows:
 
