@@ -26,9 +26,9 @@ Pre-requisites
 
 Usage
 -----
-#. Update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_ with your desired values (if Route53 DNS services are not desired, simply delete `route53.tf <https://github.com/BobaFettyW4p/OnlineGuestbook/blob/main/route53.tf>`_)
-#. Ensure your AWS credentials are properly passed to your terminal session
-#. Apply the terraform configuration as follows:
+1. Update the domain_name and instance_key variable in `terraform.tfvars <https://github.com/BobaFettyW4p/OnlineGuestbookTerraform/blob/main/terraform.tfvars>`_ with your desired values (if Route53 DNS services are not desired, simply delete `route53.tf <https://github.com/BobaFettyW4p/OnlineGuestbook/blob/main/route53.tf>`_)
+2. Ensure your AWS credentials are properly passed to your terminal session
+3. Apply the terraform configuration as follows:
 
 
 .. code-block:: bash
@@ -41,4 +41,6 @@ Usage
 
 NOTE: As part of the installation, your EC2 instance will utilize the files from the `sister repository <https://github.com/BobaFettyW4p/OnlineGuestBookConfig>`_ to configure the web server/app.
 
-post install, you may need to delegate DNS authority to the newly-created hosted zone. For more information, please refer to my `blog post <https://blog.mivancic.com/route53-hosted-zone-delegation>`_ on this
+4. Once complete, terraform will return the public IP address of your EC2 instance as the value of the `web_instance_ip` variable
+
+post install, you may need to delegate DNS authority to the newly-created hosted zone. For more information, please refer to my `blog post <https://blog.mivancic.com/route53-hosted-zone-delegation>`_ on how to do this
