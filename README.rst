@@ -5,6 +5,8 @@ Online Guest Book
 
 To see an example of this project in action, click `here <http://guestbook.mivancic.com>`_
 
+NOTE: As of 3/30/22, this project is no longer using this infrastructure and has been migrated to a serverless version as hosted `here <https://github.com/BobaFettyW4p/GuestbookEnhanced>`_
+
 This repo contains all of the terraform configuration files needed to create a web server infrastructure on AWS to host
 a simple 'Online Guestbook' webapp:
 
